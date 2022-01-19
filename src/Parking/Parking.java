@@ -52,7 +52,7 @@ import java.util.Scanner;
 	//Enregistrer les voiture qui sont sortir
 	public static void SaveVoitureSort(Voiture v)  {
 		
-		File myFile = new File("ParkingFile-ELMSAOURI-ELGHIZI.txt");
+		File myFile = new File("StorageFile.txt");
 		try {
 			if(myFile.createNewFile()) {
 				FileWriter myWriter = new FileWriter(myFile.getPath(),true); 
